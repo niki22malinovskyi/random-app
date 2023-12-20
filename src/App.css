@@ -1,38 +1,117 @@
-.App {
+h1,
+p {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li {
+  padding: 0;
+  margin: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input__btn {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 300px;
+  padding: 15px 15px;
+  margin: 0 auto;
+}
+
+.input__wrap {
+  margin-left: 10px;
+}
+
+.error-message {
+  color: red;
+}
+
+.inner{
+  overflow-x: scroll;
+}
+
+.wrap__teams ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrap__teams li{
+  list-style: none;
+}
+
+.wrap__teams__column-2 li {
+  width: 50%;
+  padding: 15px 0;
+}
+
+.wrap__teams__column-3 ul {
+  width: 450px;
+}
+
+.wrap__teams__column-3 li {
+  width: 150px;
+  padding: 15px 0;
+}
+
+.wrap__teams__column-4 ul {
+  width: 600px;
+}
+
+.wrap__teams__column-4 li {
+  width: 150px;
+  padding: 15px 0;
+}
+
+.people__lists {
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.people__lists li {
+  list-style: none;
+  padding: 10px;
+}
+
+.team {
+  margin-bottom: 20px;
+}
+
+.btn {
+  text-align: center;
+}
+
+.wrap__teams__name {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wrap__icon {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  margin: 0 10px;
+  border-bottom: 1px solid #9b9999;
+}
+
+.people-all {
+  font-size: 18px;
+  padding: 10px;
 }
