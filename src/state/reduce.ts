@@ -10,7 +10,7 @@ const initialState: State = {
     {id: '6', name: 'Олег', captain: false, player: true, subplayer: false},
     {id: '7', name: 'Назар', captain: false, player: true, subplayer: false},
     {id: '8', name: 'Костя', captain: false, player: true, subplayer: false},
-    {id: '9', name: 'Тарас Мал.', captain: false, player: false, subplayer: true},
+    {id: '9', name: 'Хриня', captain: false, player: false, subplayer: true},
     {id: '10', name: 'Ваня Мал.', captain: false, player: false, subplayer: true},
   ],
   captain: [],
